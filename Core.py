@@ -55,7 +55,7 @@ def GET():
                     Counter += 1
                     if not Codes:
                         Codes.update({"Infos":[DB_Code], "Tags_Count":[Counter]})
-                    else:
+                    else: 
                         Codes["Infos"].append(DB_Code)
                         Codes["Tags_Count"].append(Counter)
     More_Counts = 0
