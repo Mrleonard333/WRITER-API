@@ -4,9 +4,6 @@ from flask_jwt_extended import JWTManager, get_jwt_identity, jwt_required
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from datetime import timedelta
-from os import system
-
-system("clear")
 
 app = Flask(__name__) # v Will configure the database connection
 app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://_User_:_Password_@_host_:3306/_Schema_"
