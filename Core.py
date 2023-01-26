@@ -39,7 +39,7 @@ def GET():
     Codes = dict()
     Description = str(request.json["description"]) # < Will request json data from user
 
-                        # v Will get the code table data
+                        # v Will get the code
     for DB_Code in code.query.all():
         DB_Code = DB_Code.Format_Data() # < Will format the data in a dict
 
