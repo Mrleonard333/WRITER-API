@@ -1,5 +1,3 @@
-# source /c/Users/MrLeonard/Documents/VS_PROJECTS/Python_Projects/Writer-API/venv/Scripts/activate
-
 from flask_jwt_extended import JWTManager, get_jwt_identity, jwt_required
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
